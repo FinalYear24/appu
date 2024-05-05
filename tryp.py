@@ -8,7 +8,7 @@ from phi.embedder.ollama import OllamaEmbedder
 from phi.vectordb.pgvector import PgVector2
 from phi.storage.assistant.postgres import PgAssistantStorage
 
-db_url ="postgresql://bbot_f7yx_user:jUElVo2DR3ZJ8Yw7GJV45UWBc3YjeqKQ@dpg-cork4bq0si5c739hsid0-a.oregon-postgres.render.com:5432/bbot_f7yx?sslmode=require"
+db_url ="postgresql://bbot_f7yx_user:jUElVo2DR3ZJ8Yw7GJV45UWBc3YjeqKQ@dpg-cork4bq0si5c739hsid0-a.oregon-postgres.render.com/bbot_f7yx"
 
 
 def get_groq_assistant(
