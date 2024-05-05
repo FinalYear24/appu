@@ -7,7 +7,7 @@ from phi.document.reader.pdf import PDFReader
 from phi.document.reader.website import WebsiteReader
 from phi.utils.log import logger
 
-from assistant import get_groq_assistant  # type: ignore
+from tryp import get_groq_assistant  # type: ignore
 
 st.set_page_config(
     page_title="bbot",
