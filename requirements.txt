@@ -41,3 +41,4 @@ pillow==10.3.0
 protobuf==4.25.3
 sqlalchemy==1.4.32
 psycopg2-binary==2.9.9
+pypdf==4.2.0
