@@ -39,7 +39,6 @@ pgvector==0.2.5
 phidata==2.3.88
 pillow==10.3.0
 protobuf==4.25.3
-psycopg2-binary==3.1.18  # Choose either psycopg or psycopg2-binary, not both
 pyarrow==16.0.0
 pycparser==2.22
 pydantic==2.7.0
@@ -74,3 +73,4 @@ typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
 watchdog==4.0.0
+psycopg2==2.9.5  # Only include psycopg2 or psycopg2-binary, not both
